@@ -32,3 +32,13 @@ Dataset with visitors:
 - date - date;
 - group - A/B test group;
 - visitors - number of users on the specified date in the specified A/B test group.
+
+**Conclusion on the test results**
+
+After analyzing the A/B test, we can draw several conclusions:
+- There is a statistically significant difference in the average number of orders between groups based on "raw" and "clean" data. The p-value is less than 0.05.
+- There is no statistically significant difference in the average order value between groups based on "raw" and "clean" data. The p-value is practically the same and greater than 0.05.
+- The relative gain in the average number of orders of group "B" over "A" is 17.4% (compared to 13.9% based on "raw" data).
+- The average order value of group B is equal to the average order value of group A.
+- The chart of the difference in the average number of orders between groups shows that the results of group B are better than those of group A.
+- The chart of the difference in the average order value shows that the results of group A are not significantly different from those of group B.
